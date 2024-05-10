@@ -5,9 +5,10 @@
   margin: 20px 0;
   padding: 15px;
   font-size: 13px;
-  color: #fff;
-  background: #4d4d4d;
+  color: #657a81;
+  background: #fdf6e3;
   line-height: $line-height-code-block;
+  border-radius: 6px;
 }
 /*pre, code { 
   font-family: $code-font-family;
@@ -23,7 +24,7 @@
 }*/
 .post-container pre code {
   padding: 0;
-  color: #fff;
+  color: #657a81;
   background: none;
   text-shadow: none;
 }
@@ -44,7 +45,7 @@
 .post-container .highlight figcaption {
   zoom: 1;
   font-size: 1em;
-  color: #fff;
+  color: #657a81;
   line-height: 1em;
   margin-bottom: 1em;
 }
@@ -58,10 +59,10 @@
 }
 .post-container .highlight figcaption a {
   float: right;
-  color: #fff;
+  color: #657a81;
 }
 .post-container .highlight figcaption a:hover {
-  border-bottom-color: #fff;
+  border-bottom-color: #657a81;
 }
 .post-container .highlight .gutter pre {
   color: #666;
@@ -78,7 +79,7 @@
   border: none;
 }
 .post-container pre .comment {
-  color: #75715e;
+  color: #93a1a1;
 }
 .post-container pre .variable,
 .post-container pre .attribute,
@@ -92,7 +93,7 @@
 .post-container pre .css .id,
 .post-container pre .css .class,
 .post-container pre .css .pseudo {
-  color: #fd971f;
+  color: #d30102;
 }
 .post-container pre .number,
 .post-container pre .preprocessor,
@@ -101,7 +102,7 @@
 .post-container pre .params,
 .post-container pre .constant,
 .post-container pre .command {
-  color: #f99157;
+  color: #657a81;
 }
 .post-container pre .ruby .class .title,
 .post-container pre .css .rules .attribute,
@@ -114,11 +115,11 @@
 .post-container pre .special,
 .post-container pre .number,
 .post-container pre .formula {
-  color: #e6db74;
+  color: #2aa198;
 }
 .post-container pre .title,
 .post-container pre .css .hexcolor {
-  color: #6cc;
+  color: #657a81;
 }
 .post-container pre .function,
 .post-container pre .python .decorator,
@@ -128,9 +129,9 @@
 .post-container pre .perl .sub,
 .post-container pre .javascript .title,
 .post-container pre .coffeescript .title {
-  color: #a6e22e;
+  color: #657a81;
 }
 .post-container pre .keyword,
 .post-container pre .javascript .function {
-  color: #f92672;
+  color: #b58900;
 }
